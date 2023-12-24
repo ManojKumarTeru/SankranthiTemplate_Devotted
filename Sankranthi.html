@@ -12,146 +12,96 @@
             font-family: 'Ramabhadra', sans-serif;
         }
         body {
-            background-image: url(Sankranthi.jpg);
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-size: cover;
-            background-color: #f0f0f0;
-            color: #333;
-            height: 800px;
-            background-position-x: 40px;
-            background-position-y: -80px;
+            background-color: #f7f0e5; /* Light background color */
         }
-        #Logo{
-            width: 80px;
-            height: 80px;
-            margin-left: 1225px;
-        }
-        #heading{
-            text-align: left;
-            margin-top: -55px;
-            color:orangered;
-        }
-        header {
+
+        .brochure {
+            max-width: 800px;
+            margin: 20px auto;
             padding: 20px;
-            text-align: center;
-            color: #0569fa;
-        }
-
-        main {
-            padding: 20px;
-            text-align: center;
-        }
-
-        #dynamic-content {
-            font-size: 1.8em;
-            margin-bottom: 20px;
-            color: #3498db;
-        }
-
-        #image-container {
-            text-align: center;
-            margin-bottom: 30px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff; /* White background color for the brochure */
         }
 
         img {
             max-width: 100%;
             height: auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
         }
 
-        #cta-button {
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 1.2em;
-            text-decoration: none;
-            background-color: #e74c3c;
-            color: #fff;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-
-        #cta-button:hover {
-            background-color: #c0392b;
-        }
-
-        footer {
-            background-color: #2c3e50;
+        h2, p {
+            color: #703c1e; /* Brown text color */
+            background-color: #fde8d1; /* Light orange background color */
             padding: 10px;
-            text-align: center;
-            color: #ecf0f1;
+            border-radius: 5px; /* Rounded corners */
         }
-        .MainText{
-            width: 1300px;
-            width: 440px;
-            margin-left: 20px;
-            color:navy;
-            text-align: left;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            display: block;
+
+        h1 {
+            font-size: 28px;
         }
-        @media (max-width: 767px){
-            *{
-            font-family: 'Ramabhadra', sans-serif;
+
+        h2 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        @media (max-width: 600px) {
+            .brochure {
+                padding: 10px;
             }
-            body {
-            background-image: url(Sankranthi.jpg);
-            background-position-x: 0px;
-            background-position-y: 0px;
-            margin: 0;
-            padding: 0;
-            background-size: contain;
-            background-color: #f0f0f0;
-            color: #333;
-            /* backdrop-filter: blur(5px); */
-            }
-            #heading{
-            text-align: left;
-            margin-top: -55px;
-            margin-left: -20px;
-            border-left: 0;
+            #MainImg {
+                width: 100%;
+                height: 300px;
             }
             #Logo{
             width: 70px;
             height: 70px;
-            margin-left: 365px;
+            margin-left: 300px;
             }
-            .MainText{
-            width: 440px;
-            margin-left: 20px;
-            color:navy;
-            display: block;
-            margin-bottom: 10px;
+            #Head{
+                text-align: center;
+                color: darkgreen;
             }
-            header {
-            padding: 20px;
-            text-align: center;
-            color: orangered;
-            margin-bottom: -50px;
-        }
+            h3{
+                color: #ba4a45;
+            }
+            #Logo {
+                width: 50px;
+                height: 50px;
+                position: absolute;
+                top: 20px;
+                right: 10px;
+            }
         }
     </style>
+    <title>Sankranthi Brochure</title>
 </head>
 <body>
-
-<!-- <header>
-    <h1>Chatrapathi Shivaji Jayanthi</h1>
-</header> -->
-
-<main>
     <div id="Logo">
-        <img src="Logo6 Final_Transparent.png">
+        <img id="logo" src="Logo6_Final_Transparent-removebg-preview.png" alt="Logo">
     </div>
-    <h1 id="heading">Happy Makara Sankranthi</h1>
-    <h2 class="MainText"><b>"1947లో బ్రిటీష్ వలస పాలన నుండి దేశం స్వాతంత్య్రం పొందిన జ్ఞాపకార్థం భారతదేశంలో ప్రతి సంవత్సరం ఆగస్టు 15వ తేదీన స్వాతంత్య్రం దినోత్సవం జరుపుకుంటారు. ఈ రోజు  భారతదేశంలో జాతీయ సెలవుదినం మరియు గొప్ప ఉత్సాహంతో మరియు దేశభక్తితో జరుపుకుంటారు.</b></h2>
-    <h2 class="MainText"><b>ఈ రోజున, భారత ప్రధాని ఢిల్లీలోని ఎర్రకోట వద్ద జాతీయ జెండాను ఎగురవేసి, గత సంవత్సరం సాధించిన విజయాలు మరియు ముందున్న సవాళ్లను వివరిస్తూ జాతిని ఉద్దేశించి ప్రసంగిస్తారు. జాతీయ గీతం ఆలపించి జెండాకు వందనం సమర్పించారు.</b></h2>
-    <h2 class="MainText"><b>అధికారిక వేడుకలు కాకుండా, దేశవ్యాప్తంగా వివిధ సాంస్కృతిక కార్యక్రమాలు, కవాతులు మరియు జెండా ఎగురవేత వేడుకలు కూడా ఉన్నాయి. ప్రజలు తమ ఇళ్లను మరియు ప్రభుత్వ భవనాలను జాతీయ జెండా మరియు దేశభక్తి నినాదాలతో అలంకరిస్తారు. పాఠశాలలు, కళాశాలలు మరియు ఇతర సంస్థలు ఈ రోజును జరుపుకోవడానికి సాంస్కృతిక కార్యక్రమాలు, చర్చలు మరియు క్విజ్ పోటీలను నిర్వహిస్తాయి.</b></h2>
-    <h2 class="MainText"><b>స్వాతంత్య్రం దినోత్సవం అనేది మన స్వాతంత్య్రం  సమరయోధులు చేసిన త్యాగాలను స్మరించుకొంటూ  జరుపుకునే రోజు. "</b></h2>
-    <div id="dynamic-content">
-        <p id="greeting"></p>
+    <h1 id="Head"><b>Happy Makara Sankranthi</b></h1>
+    <div class="brochure">
+        <img id="MainImg" src="Sankranthi.jpg" alt="Sankranthi Image">
+        <h2>Celebrate the Harvest Festival</h2>
+        <h3>
+            "1947లో బ్రిటీష్ వలస పాలన నుండి దేశం స్వాతంత్య్రం పొందిన జ్ఞాపకార్థం భారతదేశంలో ప్రతి సంవత్సరం ఆగస్టు 15వ తేదీన స్వాతంత్య్రం దినోత్సవం జరుపుకుంటారు. ఈ రోజు  భారతదేశంలో జాతీయ సెలవుదినం మరియు గొప్ప ఉత్సాహంతో మరియు దేశభక్తితో జరుపుకుంటారు.
+
+ఈ రోజున, భారత ప్రధాని ఢిల్లీలోని ఎర్రకోట వద్ద జాతీయ జెండాను ఎగురవేసి, గత సంవత్సరం సాధించిన విజయాలు మరియు ముందున్న సవాళ్లను వివరిస్తూ జాతిని ఉద్దేశించి ప్రసంగిస్తారు. జాతీయ గీతం ఆలపించి జెండాకు వందనం సమర్పించారు.
+
+అధికారిక వేడుకలు కాకుండా, దేశవ్యాప్తంగా వివిధ సాంస్కృతిక కార్యక్రమాలు, కవాతులు మరియు జెండా ఎగురవేత వేడుకలు కూడా ఉన్నాయి. ప్రజలు తమ ఇళ్లను మరియు ప్రభుత్వ భవనాలను జాతీయ జెండా మరియు దేశభక్తి నినాదాలతో అలంకరిస్తారు. పాఠశాలలు, కళాశాలలు మరియు ఇతర సంస్థలు ఈ రోజును జరుపుకోవడానికి సాంస్కృతిక కార్యక్రమాలు, చర్చలు మరియు క్విజ్ పోటీలను నిర్వహిస్తాయి.
+
+స్వాతంత్య్రం దినోత్సవం అనేది మన స్వాతంత్య్రం  సమరయోధులు చేసిన త్యాగాలను స్మరించుకొంటూ  జరుపుకునే రోజు. "
+        </h3>
+        <img id="MainImg" src="Sankranthi.jpg" alt="Sankranthi Image">
     </div>
-</main>
+
 </body>
 </html>
